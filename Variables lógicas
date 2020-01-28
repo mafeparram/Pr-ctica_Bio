@@ -1,0 +1,72 @@
+Algoritmo Notas
+	Escribir "Digite 1 para conocer su calificación final o digite 2 para conocer su promedio académico"
+	Definir x,z,a,aa,b,bb,c,cc como Real
+	Leer x
+	Si x== 1 Entonces
+		Escribir 'Si desea continuar con los porcentajes determinados de la materia digite 1, si desea dar el porcentaje a cada evaluación, digite 2'
+			Leer z
+			Si z==1 Entonces
+						
+				Escribir "A continuación, escriba cada uno de sus notas en el orden indicado "	
+				Escribir "Parcial 1" Sin Saltar
+				Leer a 
+				aa <-a * 0.25
+				Escribir "Parcial 2" sin saltar
+				Leer b
+				bb <-b * 0.25
+				Escribir "Nota de Participación" Sin Saltar
+				Leer c 
+				cc <-c * 0.20
+				Escribir "Examen final" Sin Saltar
+				Leer d
+				dd <-d * 0.30
+				T<- aa+bb+cc+dd
+				Escribir "Su nota final es " T Sin Saltar
+				
+					Si T >= 3 Entonces
+						Escribir ' Felicitaciones, has aprobado esta clase'
+					SiNo
+						Escribir '! Te esperamos en el próximo semestre para repetir la materia'
+					Fin Si
+					
+			SiNo
+				Escribir "A continuación, escriba cada uno de sus cuatro notas y el porcentaje asignado, recuerde que la suma de los porcentajes debe ser de 100%"	
+				Escribir "Nota 1" Sin Saltar
+				Leer f 
+				Escribir "Porcetaje" Sin Saltar
+				Leer g
+				gg <- (g/ 100)*f
+				Escribir "Nota 2" sin saltar
+				Leer h
+				Escribir "Porcentaje" sin saltar
+				Leer i
+				ii <- (i/100)*h
+				Escribir "Nota 3" Sin Saltar
+				Leer j
+				Escribir "Porcentaje" sin saltar
+				Leer k
+				kk <- (k/100)*j
+				Escribir "Nota 4" Sin Saltar
+				Leer l
+				Escribir "Porcentaje" sin saltar
+				Leer m
+				ll <- (l/100)*m
+				T<- gg+ii+kk+ll
+				Escribir "Su nota final es " T Sin Saltar
+			Fin Si	
+	SiNo
+		Escribir "A continuación, escriba las notas finales obtenidas en sus cuatro materias para saber el promedio "	
+		Escribir "Funtamentos de investigación" Sin Saltar
+			Leer p
+		Escribir "Métodos en Bioestadística" sin saltar
+			Leer q
+		Escribir "Probabilidad" Sin Saltar
+			Leer r
+		Escribir "Computación estadística" Sin Saltar
+			Leer s
+		
+		T <- (p+q+r+s)/4
+		Escribir "Su promedio de este semestre es " T Sin Saltar
+	Fin Si
+		
+FinAlgoritmo
