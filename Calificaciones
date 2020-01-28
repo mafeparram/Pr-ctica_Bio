@@ -1,0 +1,18 @@
+Algoritmo Calificaciones
+		Escribir "A continuación, escriba cada uno de sus notas en el orden indicado "	
+		Escribir "Parcial 1"
+		Leer a 
+		aa <-a * 0.25
+		Escribir "Parcial 2"
+		Leer b
+		bb <-b * 0.25
+		Escribir "Nota de Participación"
+		Leer c 
+		cc <-c * 0.20
+		Escribir "Examen final"
+		Leer d
+		dd <-d * 0.30
+		T<- aa+bb+cc+dd
+		Escribir "Su nota final es " T
+		
+FinAlgoritmo
