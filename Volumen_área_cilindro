@@ -1,0 +1,19 @@
+Algoritmo volumen_area_cilindro
+	Escribir 'El cilindro es un cuerpo generado por el giro de un rectángulo en torno a uno de sus lados'
+	Escribir 'Para hallar el área del cilindro en cm, digite los siguientes datos:'
+		Escribir 'Radio'
+		Leer r
+		AB <- 2*pi*r^2
+		Escribir 'Área basal igual a ' AB
+	Escribir 'Altura'
+		Leer h
+		AL <- 2*pi*r*h
+		Escribir 'Área lateral igual a ' AL
+	AT <- (2*pi*r^2)+(2*pi*r*h)
+	Escribir 'Área total del cilindro igual a ' AT
+	V <- pi*r^2*h
+	Escribir 'El volumen del cilindo es ' V
+	
+FinAlgoritmo
+
+
